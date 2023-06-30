@@ -18,16 +18,14 @@ export const Hero = () => {
             trabajo con lo digital!
           </p>
 
-          <button className="">
-            <NextLink href="/">
-              <button
-                type="button"
-                className="text-black bg-white hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-2 text-center mt-3 mr-3 md:mr-0"
-              >
-                Empieza Ya!
-              </button>
-            </NextLink>
-          </button>
+          <NextLink href="/">
+            <button
+              type="button"
+              className="text-black bg-white hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-2 text-center mt-3 mr-3 md:mr-0"
+            >
+              Empieza Ya!
+            </button>
+          </NextLink>
         </div>
         <div className="text-center items-center">
           <NextImage
