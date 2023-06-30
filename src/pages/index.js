@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { AboutUs, Hero, NavBar } from "@/components";
+import { AboutUs, Footer, Hero, NavBar } from "@/components";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
         <div className="m-10" />
         <AboutUs />
         <div className="m-10" />
+        <Footer />
       </main>
     </>
   );
