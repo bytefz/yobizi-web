@@ -6,7 +6,7 @@ export const Benefits = () => {
       <h2 id="benefits" className="mb-10 text-white text-lg md:text-4xl">
         Beneficios
       </h2>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col xl:flex-row">
         <CardBenefit
           description="En YOBIZI vas a poder encontrar el trabajador calificado perfecto para lo que necesites."
           primaryBgColor="#234A60"
@@ -41,17 +41,20 @@ const CardBenefit = ({
   if (isReversed) {
     return (
       <div
-        className="flex flex-col mx-5 items-center py-14 rounded-3xl"
+        className="flex flex-col my-5 mx-5 items-center py-14 rounded-3xl"
         style={{
           backgroundColor: primaryBgColor,
         }}
       >
-        <div className="">
-          <NextImage src={iconAsset} width={300} height={300} />
-        </div>
+        <NextImage
+          src={iconAsset}
+          width={300}
+          height={300}
+          className="w-48 md:w-80"
+        />
         <div className="my-14" />
         <div
-          className="text-center rounded-3xl text-white w-96 h-44 p-8 text-lg md:text-2xl mx-8"
+          className="text-center rounded-3xl text-white 2xl:w-96 lg:w-80 h-44 p-8 text-lg md:text-2xl mx-8"
           style={{
             backgroundColor: secondaryBgColor,
           }}
@@ -64,13 +67,13 @@ const CardBenefit = ({
 
   return (
     <div
-      className="flex flex-col mx-5 items-center py-14 rounded-3xl"
+      className="flex flex-col my-5 mx-5 items-center py-14 rounded-3xl"
       style={{
         backgroundColor: primaryBgColor,
       }}
     >
       <div
-        className="text-center rounded-3xl text-white w-96 h-44 p-8 text-lg md:text-2xl mx-8"
+        className="text-center rounded-3xl text-white 2xl:w-96 lg:w-80 h-44 p-8 text-lg md:text-2xl mx-8"
         style={{
           backgroundColor: secondaryBgColor,
         }}
@@ -78,9 +81,12 @@ const CardBenefit = ({
         {description}
       </div>
       <div className="my-14" />
-      <div className="">
-        <NextImage src={iconAsset} width={300} height={300} />
-      </div>
+      <NextImage
+        src={iconAsset}
+        width={300}
+        height={300}
+        className="w-48 md:w-80"
+      />
     </div>
   );
 };
