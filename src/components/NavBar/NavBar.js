@@ -9,7 +9,7 @@ export const NavBar = () => {
 
   return (
     <nav
-      className="bg-white fixed w-full z-20 top-0 left-0"
+      className="bg-white relative w-full z-20 top-0 left-0"
       style={{
         backgroundColor: "rgb(1, 62, 96)",
       }}

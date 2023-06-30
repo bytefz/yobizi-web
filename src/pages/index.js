@@ -1,10 +1,18 @@
-import { NavBar } from "@/components";
+import { Hero, NavBar } from "@/components";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <NavBar />
-      <h1>Hola Mundo</h1>
+      <Head>
+        <title>Home | Yobizi</title>
+      </Head>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
