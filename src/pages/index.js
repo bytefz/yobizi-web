@@ -1,5 +1,6 @@
-import { Hero, NavBar } from "@/components";
 import Head from "next/head";
+
+import { AboutUs, Hero, NavBar } from "@/components";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
       </header>
       <main>
         <Hero />
+        <div className="m-10" />
+        <AboutUs />
+        <div className="m-10" />
       </main>
     </>
   );
