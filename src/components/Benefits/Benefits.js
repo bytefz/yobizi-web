@@ -3,7 +3,7 @@ import NextImage from "next/image";
 export const Benefits = () => {
   return (
     <section className="flex flex-col items-center">
-      <h2 id="benefits" className="mb-10 text-white text-lg md:text-4xl">
+      <h2 id="benefits" className="mb-10 text-white text-xl md:text-4xl">
         Beneficios
       </h2>
       <div className="flex flex-col xl:flex-row">
