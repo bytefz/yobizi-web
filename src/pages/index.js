@@ -1,6 +1,13 @@
 import Head from "next/head";
 
-import { AboutUs, Benefits, Footer, Hero, NavBar } from "@/components";
+import {
+  AboutUs,
+  Benefits,
+  Footer,
+  Hero,
+  NavBar,
+  Services,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -15,6 +22,8 @@ export default function Home() {
         <Hero />
         <div className="m-10" />
         <AboutUs />
+        <div className="m-10" />
+        <Services />
         <div className="m-10" />
         <Benefits />
         <div className="m-10" />

@@ -70,7 +70,7 @@ export const Footer = () => {
             <ul className="flex flex-row text-gray-500 dark:text-gray-400 font-medium space-x-4">
               <li>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=100094037179701"
                   className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
                 >
                   <BsFacebook className="w-10 h-10" />
@@ -92,7 +92,7 @@ export const Footer = () => {
                   className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
                 >
                   <AiFillLinkedin className="w-10 h-10" />
-                  <span className="sr-only">Twitter page</span>
+                  <span className="sr-only">Linkedin page</span>
                 </a>
               </li>
               <li className="">
@@ -101,16 +101,16 @@ export const Footer = () => {
                   className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
                 >
                   <AiOutlineInstagram className="w-10 h-10" />
-                  <span className="sr-only">Twitter page</span>
+                  <span className="sr-only">Instagram page</span>
                 </a>
               </li>
               <li className="">
                 <a
-                  href="#"
+                  href="https://wa.me/945066584"
                   className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
                 >
                   <AiOutlineWhatsApp className="w-10 h-10" />
-                  <span className="sr-only">Twitter page</span>
+                  <span className="sr-only">Whatsapp page</span>
                 </a>
               </li>
             </ul>
