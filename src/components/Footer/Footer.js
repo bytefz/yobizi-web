@@ -19,7 +19,7 @@ export const Footer = () => {
             </h2>
             <ul className="text-white font-medium">
               <li className="mb-4">
-                <a href="#" className="underline hover:text-black">
+                <a href="tel:945066584" className="underline hover:text-black">
                   Contacto
                 </a>
               </li>
